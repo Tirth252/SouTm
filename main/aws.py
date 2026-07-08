@@ -4,9 +4,9 @@ import time
 import paramiko
 from .rcon_service import execute_rcon_cmd
 import valve.source.a2s
-privkey = paramiko.RSAKey.from_private_key_file("/Users/nstaning/Downloads/Testkey1.pem")
-host = 'soutm'
-password = 'wasd'
+privkey = paramiko.RSAKey.from_private_key_file("<REDACTED_PRIVATE_KEY_PATH>")
+host = '<REDACTED_SSH_USER>'
+password = '<REDACTED_SSH_PASSWORD>'
 port = 22
 # import json
 
